@@ -1,0 +1,12 @@
+.conteiner-flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+@media (max-width:800px){
+    .conteiner-flexbox{
+        flex-direction: column;
+    }
+}
